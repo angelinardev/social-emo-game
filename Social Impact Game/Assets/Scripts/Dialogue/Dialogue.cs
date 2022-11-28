@@ -48,6 +48,7 @@ public class Dialogue : MonoBehaviour
 
         if (pause == index)
         {
+            Gplines[index] = Gplines[index -2];
             button1.SetActive(true);
             button2.SetActive(true);
             button3.SetActive(true);
