@@ -14,7 +14,7 @@ public class MatchingManager : MonoBehaviour
     public TextMeshProUGUI matchText;
 
     private bool _init = false;
-    private int _matches = 3;
+    public int _matches = 3;
 
     
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class MatchingManager : MonoBehaviour
         //Initialize the amount of matches needed
         for (int id = 0; id < 2; id++)
         {
-            for (int i = 1; i < 4; i++)
+            for (int i = 1; i < _matches+1; i++)
             {
                 bool test = false;
                 int choice = 0;

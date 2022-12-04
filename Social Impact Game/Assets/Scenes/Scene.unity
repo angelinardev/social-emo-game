@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 50224132}
   - component: {fileID: 50224131}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: DialogueCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &287623711
 GameObject:
@@ -2049,7 +2049,7 @@ GameObject:
   - component: {fileID: 1025244822}
   - component: {fileID: 1025244821}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MemoryGameCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2139,7 +2139,7 @@ RectTransform:
   - {fileID: 983527418}
   - {fileID: 1567445154}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
