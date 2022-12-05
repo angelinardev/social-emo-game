@@ -302,6 +302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 0}
+  GameOverUI: {fileID: 0}
+  MemoryGameCanvas: {fileID: 0}
   currentTime: 500
   countDown: 1
   hasLimit: 0
@@ -391,13 +393,13 @@ MonoBehaviour:
   - 'Grandpa: What''s that in your hand? Who are you?'
   - 
   - 'Grandpa: Are you? I don''t recall having grandchildren... Who are you then? '
-  - 'Grandpa: Here? Where are we? Do you know how I can get back home?'
+  - 'Grandpa: Visiting me? Why? Where am I? Do you know how I can get back home?'
   - 'Grandpa: What''s that? What is that for? Go away!'
   options:
   - I believe I'm your grandchild.
   - I'm here to visit you.
   - I brought this to play with you again.
-  textSpeed: 0.085
+  textSpeed: 0.2
   pause: 2
 --- !u!114 &261695587
 MonoBehaviour:
