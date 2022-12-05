@@ -103,11 +103,12 @@ public class MatchingManager : MonoBehaviour
         {
             x = 2;
             _matches--;
-            matchText.text = "Number of Matches: " + _matches;
+            matchText.text = "Matches Remaining: " + _matches;
             if(_matches == 0)
             {
                 //When matches are complete do something
                 //SceneManager.LoadScene("Menu");
+                SceneSwitch.instance.ChangeNextScene();
             }
         }
 

@@ -25,8 +25,6 @@ public class Dialogue : MonoBehaviour
     private int index;
     private int select;
 
-    private bool selectionh;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +36,6 @@ public class Dialogue : MonoBehaviour
         selction2.text = options[1];
         selction3.text = options[2];
         select = 0;
-        selectionh = false;
         startDialogue();
     }
 
@@ -101,7 +98,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            SceneSwitch.instance.ChangeNextScene();
         }
 
     }

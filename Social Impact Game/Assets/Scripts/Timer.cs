@@ -7,7 +7,9 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
    [Header("Component")]
-   public TextMeshProUGUI timerText;
+    public TextMeshProUGUI timerText;
+    public GameObject GameOverUI;
+    public GameObject MemoryGameCanvas;
 
     [Header("Timer Settings")]
     public float currentTime;
@@ -15,13 +17,16 @@ public class Timer : MonoBehaviour
 
     [Header ("Limit Settings")]
     public bool hasLimit;
-    public float timerLimit; 
+    public float timerLimit;
+
+    [Header("Level Settings")]
+    public bool isImpossible = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        GameOverUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,6 +42,17 @@ public class Timer : MonoBehaviour
             //disables this script
             enabled = false;
             //this is when we lose
+            //Add if statement and bool to check if level is impossible
+            if (isImpossible)
+            {
+                SceneSwitch.instance.ChangeNextScene(); //Change to next scene if this is the impossible level
+            }
+            else
+            {
+                //LoseCondition
+                MemoryGameCanvas.SetActive(false);
+                GameOverUI.SetActive(true);
+            }
         }
 
             SetTimerText();

@@ -5,10 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
+    public static SceneSwitch instance;
+
+    private void Start()
+    {
+        if (!instance)
+        {
+            instance = this;
+        }
+        
+    }
+
     public void ChangeScene(string n)
     {
         SceneManager.LoadScene(n);
     }
+    public void ChangeScene(int n)
+    {
+        SceneManager.LoadScene(n);
+    }
+
     public void ChangeNextScene()
     {
         int id = SceneManager.GetActiveScene().buildIndex + 1;
