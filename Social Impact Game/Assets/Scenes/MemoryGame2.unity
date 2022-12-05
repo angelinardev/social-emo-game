@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 707291410}
-  currentTime: 60
+  currentTime: 45
   countDown: 1
   hasLimit: 1
   timerLimit: 0
@@ -1759,13 +1759,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardFace:
-  - {fileID: 2800000, guid: 719be7c49a6bdf648bb49b370dfdf5d1, type: 3}
-  - {fileID: 2800000, guid: a6155ad31f8285942b6e1594d66b0288, type: 3}
-  - {fileID: 2800000, guid: cf0e803b3fea002498c153bc0c07a246, type: 3}
+  - {fileID: 2800000, guid: 6ec1e398c4aae3549b31f878ff0ed879, type: 3}
+  - {fileID: 2800000, guid: 0425c4850686dac40b440e060053f6a6, type: 3}
+  - {fileID: 2800000, guid: 9b5f3bf5b3ad0d74fa9094a68d87e611, type: 3}
+  - {fileID: 2800000, guid: d26f393dd4e0c564192e68fb991ecb9e, type: 3}
+  - {fileID: 2800000, guid: 8d0952c2bc9e5ce42a2d67b590acd6d8, type: 3}
+  - {fileID: 2800000, guid: 0fb94f6eed8167f4d9e6acc908e69c0c, type: 3}
+  - {fileID: 2800000, guid: 780f7ff698a83e548a0c2b1454e5556f, type: 3}
+  - {fileID: 2800000, guid: 46c2e1df626bd244b92135c5e07c9912, type: 3}
   - {fileID: 2800000, guid: cd3b9d9547331544db28efd53c1d837c, type: 3}
-  - {fileID: 2800000, guid: 181cc354e17ee7b49b01a5e0c8276547, type: 3}
-  - {fileID: 2800000, guid: cc9b28ecb5e3b3246a06d685e8a0eff3, type: 3}
-  - {fileID: 2800000, guid: afc757123e941534ab99b4af7428421e, type: 3}
+  - {fileID: 2800000, guid: 4583d4d3531473046a5da2b36539f48b, type: 3}
+  - {fileID: 2800000, guid: 9741c1490555cfa4ea5b07c3f0fdc031, type: 3}
   _cardBack: {fileID: 2800000, guid: 5d346747aa2294e41b3cc526adea9dc4, type: 3}
   cards:
   - {fileID: 2082748821}
